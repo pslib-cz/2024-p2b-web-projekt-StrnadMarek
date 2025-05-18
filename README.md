@@ -1,2 +1,3 @@
-# 2024-p2b-web-projekt-StrnadMarek
-2024-p2b-web-projekt-StrnadMarek created by GitHub Classroom
+# Můj super web
+
+[Odkaz na živý web](https://pslib-cz.github.io/2024-p2b-web-projekt-StrnadMarek/)
