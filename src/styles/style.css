@@ -633,3 +633,583 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+.watching {
+  display: flex;
+  flex-direction: column;
+  height: 948px;
+  align-items: center;
+  gap: 28px;
+  padding: 0px 36px;
+  position: relative;
+  background-color: var(--teracotta);
+  overflow: hidden;
+}
+
+.watching .group {
+  position: relative;
+  width: 360px;
+  height: 86px;
+  margin-left: -36px;
+  margin-right: -36px;
+}
+
+.watching .frame {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 86px;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 0px;
+  position: relative;
+  background-color: var(--white);
+}
+
+.watching .header {
+  display: flex;
+  width: 300.52px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.watching .vector {
+  position: relative;
+  width: 37.7px;
+  height: 35px;
+}
+
+.watching .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--teracotta);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.watching .overlap-group-wrapper {
+  position: relative;
+  width: 25.75px;
+  height: 30px;
+}
+
+.watching .overlap-group {
+  position: relative;
+  width: 26px;
+  height: 30px;
+}
+
+.watching .rectangle {
+  position: absolute;
+  top: 10px;
+  left: -3px;
+  transform: rotate(-45deg);
+  width: 31px;
+  height: 5px;
+  background-color: var(--teracotta);
+  border-radius: 12px;
+}
+
+.watching .div {
+  position: absolute;
+  top: 15px;
+  left: -2px;
+  transform: rotate(45deg);
+  width: 31px;
+  height: 5px;
+  background-color: var(--teracotta);
+  border-radius: 12px;
+}
+
+.watching .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.watching .overlap-wrapper {
+  position: absolute;
+  width: 92px;
+  height: 426px;
+  top: 673px;
+  left: 101px;
+  transform: rotate(90deg);
+}
+
+.watching .overlap {
+  position: relative;
+  height: 426px;
+}
+
+.watching .div-wrapper {
+  position: absolute;
+  width: 92px;
+  height: 213px;
+  top: 213px;
+  left: 0;
+}
+
+.watching .overlap-group-2 {
+  position: relative;
+  height: 147px;
+}
+
+.watching .img {
+  position: absolute;
+  width: 147px;
+  height: 44px;
+  top: 51px;
+  left: -4px;
+  transform: rotate(-90deg);
+}
+
+.watching .frame-2 {
+  position: absolute;
+  width: 86px;
+  height: 43px;
+  top: 83px;
+  left: -22px;
+  transform: rotate(-90deg);
+}
+
+.watching .group-2 {
+  position: absolute;
+  width: 92px;
+  height: 213px;
+  top: 0;
+  left: 0;
+}
+
+.watching .frame-3 {
+  position: absolute;
+  width: 154px;
+  height: 44px;
+  top: 55px;
+  left: -8px;
+  transform: rotate(-90deg);
+}
+
+.watching .frame-4 {
+  position: absolute;
+  width: 152px;
+  height: 43px;
+  top: 116px;
+  left: -55px;
+  transform: rotate(-90deg);
+}
+
+.watching .p {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.watching .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 503px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+}
+
+.watching .button-wrapper {
+  display: flex;
+  width: 288px;
+  height: 50px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  position: relative;
+  border-radius: 6px;
+  border: 2px solid;
+  border-color: var(--white);
+}
+
+.watching .button {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.watching .frame-6 {
+  display: flex;
+  width: 288px;
+  height: 273px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 24px;
+  position: relative;
+  border-radius: 6px;
+  border: 2px solid;
+  border-color: var(--white);
+}
+
+.watching .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  margin-top: -2px;
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.watching .frame-7 {
+  display: flex;
+  width: 175px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 24px;
+  position: absolute;
+  top: 481px;
+  left: 113px;
+  background-color: #1e1e1e;
+  border-radius: 6px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  align-items: center;
+  gap: 116px;
+  padding: 0px 36px;
+  position: relative;
+  background-color: var(--teracotta);
+  overflow: hidden;
+}
+
+.menu .group {
+  position: relative;
+  width: 360px;
+  height: 86px;
+  margin-left: -36px;
+  margin-right: -36px;
+}
+
+.menu .frame {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 86px;
+  align-items: center;
+  gap: 10px;
+  padding: 24px 0px;
+  position: relative;
+  background-color: var(--white);
+}
+
+.menu .header {
+  display: flex;
+  width: 300.52px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.menu .vector {
+  position: relative;
+  width: 37.7px;
+  height: 35px;
+}
+
+.menu .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--teracotta);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .overlap-group-wrapper {
+  position: relative;
+  width: 25.75px;
+  height: 30px;
+}
+
+.menu .overlap-group {
+  position: relative;
+  width: 26px;
+  height: 30px;
+}
+
+.menu .rectangle {
+  position: absolute;
+  top: 10px;
+  left: -3px;
+  width: 31px;
+  height: 5px;
+  transform: rotate(-45deg);
+  background-color: var(--teracotta);
+  border-radius: 12px;
+}
+
+.menu .div {
+  position: absolute;
+  top: 15px;
+  left: -2px;
+  width: 31px;
+  height: 5px;
+  transform: rotate(45deg);
+  background-color: var(--teracotta);
+  border-radius: 12px;
+}
+
+.menu .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 78px;
+  align-items: center;
+  gap: 26px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.menu .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.menu .overlap-wrapper {
+  position: absolute;
+  width: 101px;
+  height: 426px;
+  top: 562px;
+  left: 154px;
+  transform: rotate(90deg);
+}
+
+.menu .overlap {
+  position: relative;
+  height: 426px;
+}
+
+.menu .group-2 {
+  position: absolute;
+  width: 101px;
+  height: 213px;
+  top: 213px;
+  left: 0;
+}
+
+.menu .img {
+  position: absolute;
+  width: 155px;
+  height: 23px;
+  top: 66px;
+  left: -14px;
+  transform: rotate(-90deg);
+}
+
+.menu .frame-3 {
+  position: absolute;
+  width: 143px;
+  height: 47px;
+  top: 109px;
+  left: -48px;
+  transform: rotate(-90deg);
+}
+
+.menu .div-wrapper {
+  position: absolute;
+  width: 101px;
+  height: 213px;
+  top: 0;
+  left: 0;
+}
+
+.menu .overlap-group-2 {
+  position: relative;
+  width: 75px;
+  height: 156px;
+  top: 57px;
+}
+
+.menu .frame-4 {
+  position: absolute;
+  width: 97px;
+  height: 23px;
+  top: 37px;
+  left: 15px;
+  transform: rotate(-90deg);
+}
+
+.menu .frame-5 {
+  position: absolute;
+  width: 152px;
+  height: 47px;
+  top: 56px;
+  left: -53px;
+  transform: rotate(-90deg);
+}
+
+/* === Mobilní zařízení (do 599px) === */
+@media (max-width: 599px) {
+  .main, .about, .watching, .menu {
+    padding: 0 16px;
+    gap: 12px;
+  }
+
+  .main .frame,
+  .about .frame,
+  .watching .frame,
+  .menu .frame,
+  .main .frame-8 {
+    width: 100%;
+    padding: 16px 0;
+  }
+
+  .main .text-wrapper,
+  .about .text-wrapper,
+  .watching .text-wrapper,
+  .menu .text-wrapper {
+    font-size: 20px;
+  }
+
+  .main .text-wrapper-2,
+  .about .text-wrapper-2,
+  .watching .text-wrapper-2 {
+    font-size: 18px;
+  }
+
+  img,
+  .main .img,
+  .about .img,
+  .watching .img {
+    max-width: 100%;
+    height: auto;
+    transform: none !important;
+  }
+
+  .overlap-wrapper,
+  .overlap-group-wrapper,
+  .frame-3,
+  .frame-4,
+  .frame-5,
+  .frame-6,
+  .frame-7 {
+    display: none !important;
+  }
+}
+
+/* === Tablety (600px až 1023px) === */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .main, .about, .watching, .menu {
+    padding: 0 24px;
+    gap: 24px;
+  }
+
+  .main .frame,
+  .about .frame,
+  .watching .frame,
+  .menu .frame {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .main .text-wrapper,
+  .about .text-wrapper,
+  .watching .text-wrapper,
+  .menu .text-wrapper {
+    font-size: 22px;
+  }
+
+  .main .text-wrapper-2,
+  .about .text-wrapper-2,
+  .watching .text-wrapper-2 {
+    font-size: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* === Velké obrazovky (od 1024px) === */
+@media (min-width: 1024px) {
+  .main, .about, .watching, .menu {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 48px;
+  }
+
+  .main .frame,
+  .about .frame,
+  .watching .frame,
+  .menu .frame {
+    width: 100%;
+  }
+
+  .main .text-wrapper,
+  .about .text-wrapper,
+  .watching .text-wrapper,
+  .menu .text-wrapper {
+    font-size: 26px;
+  }
+
+  .main .text-wrapper-2,
+  .about .text-wrapper-2,
+  .watching .text-wrapper-2 {
+    font-size: 22px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
