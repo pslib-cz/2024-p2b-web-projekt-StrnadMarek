@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <title>PawWatch | Domů</title>
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico">
     <link rel="stylesheet" href="/src/styles/globals.css" />
     <link rel="stylesheet" href="/src/styles/style.css" />
+    <script src="/src/scripts/hamburger.js" defer></script>
+    <script type="module" src="/src/scripts/swiper.js"></script>
   </head>
   <body>
     <div class="main" data-model-id="1:4">
@@ -12,17 +16,58 @@
         <div class="overlap-group">
           <div class="frame">
             <header class="header">
-              <img class="vector" src="https://c.animaapp.com/dc2ehn6c/img/vector.svg" />
+              <img class="vector" src="/public/images/logo.svg" alt="Logo" />
+              
               <div class="text-wrapper">PawWatch</div>
-              <img class="path" src="https://c.animaapp.com/dc2ehn6c/img/path1.svg" />
+
+              <!-- MENU -->
+              <nav class="nav-container">
+                <!-- hamburger pro mobil -->
+                <button class="hamburger-btn" aria-label="Otevřít menu">&#9776;</button>
+                <div class="hamburger-zone">
+                  <a href="#" class="nav-link">Domů</a>
+                  <a href="about.html" class="nav-link">O nás</a>
+                  <a href="watching.html" class="nav-link">Hlídání</a>
+                </div>
+
+                <!-- klasické menu pro desktop -->
+                <div class="desktop-menu">
+                  <a href="#" class="nav-link">Domů</a>
+                  <a href="about.html" class="nav-link">O nás</a>
+                  <a href="watching.html" class="nav-link">Hlídání</a>
+                </div>
+              </nav>
+
             </header>
+            <div class="centered-image-wrapper swiper-container">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="/public/images/cat1.jpg" alt="Kočka 1" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/public/images/cat2.jpg" alt="Kočka 2" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="/public/images/cat3.jpg" alt="Kočka 3" />
+                  </div>
+                  <!-- Přidej další obrázky podle potřeby -->
+                </div>
+            
+                <!-- Šipky navigace -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- Pagination (tečky) -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- Scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+            
           </div>
-          <img
-            class="istockphoto"
-            src="https://c.animaapp.com/dc2ehn6c/img/istockphoto-2172201311-612x612-removebg-preview-2@2x.png"
-          />
         </div>
-      </div>
       <div class="frame-wrapper">
         <div class="div">
           <div class="text-wrapper-2">Hlídání kočiček Liberec</div>
@@ -45,23 +90,6 @@
         </div>
       </div>
       <div class="overlap-wrapper">
-        <div class="overlap">
-          <div class="overlap-group-wrapper">
-            <div class="overlap-2">
-              <div class="div-wrapper">
-                <div class="overlap-group-2">
-                  <img class="img" src="https://c.animaapp.com/dc2ehn6c/img/frame-4.svg" />
-                  <img class="frame-4" src="https://c.animaapp.com/dc2ehn6c/img/frame-5.svg" />
-                </div>
-              </div>
-              <div class="group-2">
-                <div class="overlap-3">
-                  <img class="frame-5" src="https://c.animaapp.com/dc2ehn6c/img/frame-4-1.svg" />
-                  <img class="frame-6" src="https://c.animaapp.com/dc2ehn6c/img/frame-5-1.svg" />
-                </div>
-              </div>
-            </div>
-          </div>
           <div class="text-wrapper-4">Jak to funguje?</div>
         </div>
       </div>
@@ -88,14 +116,14 @@
           </p>
         </div>
         <div class="frame-8">
-          <p class="element-postar-me-se-jako">4. Postaráme se, jako by byla<br />&nbsp;&nbsp;&nbsp;&nbsp;naše</p>
+          <p class="element-postar-me-se-jako">4. Postaráme se, jako by byla naše</p>
           <p class="text-wrapper-7">
             V domluvený čas se postaráme o vše potřebné – krmení, voda, čištění záchodu, podání léků, mazlení i hraní.
             Pravidelně vám pošleme fotky a zprávy, abyste věděli, že je vaše kočka v dobrých tlapkách.
           </p>
         </div>
         <div class="frame-8">
-          <p class="element-vr-t-te-se-dom-ke">5. Vrátíte se domů ke spokojené<br />&nbsp;&nbsp;&nbsp;&nbsp; kočce</p>
+          <p class="element-vr-t-te-se-dom-ke">5. Vrátíte se domů ke spokojené kočce</p>
           <p class="text-wrapper-8">
             Po návratu vás bude doma čekat šťastná a spokojená kočka. A my budeme rádi, pokud se na nás obrátíte i
             příště.

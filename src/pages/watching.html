@@ -3,50 +3,67 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <title>PawWatch | Hlídání</title>
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico">
     <link rel="stylesheet" href="/src/styles/globals.css" />
     <link rel="stylesheet" href="/src/styles/style.css" />
+    <script src="/src/scripts/hamburger.js" defer></script>
   </head>
   <body>
-    <div class="watching">
+    <div class="main" data-model-id="1:4">
       <div class="group">
-        <div class="frame">
-          <header class="header">
-            <img class="vector" src="https://c.animaapp.com/omYycfTY/img/vector.svg" />
-            <div class="text-wrapper">PawWatch</div>
-            <div class="overlap-group-wrapper">
-              <div class="overlap-group">
-                <div class="rectangle"></div>
-                <div class="div"></div>
-              </div>
-            </div>
-          </header>
+        <div class="overlap-group">
+          <div class="frame">
+            <header class="header">
+              <img class="vector" src="/public/images/logo.svg" alt="Logo" />
+              
+              <div class="text-wrapper">PawWatch</div>
+
+              <!-- MENU -->
+              <nav class="nav-container">
+                <!-- hamburger pro mobil -->
+                <button class="hamburger-btn" aria-label="Otevřít menu">&#9776;</button>
+                <div class="hamburger-zone">
+                  <a href="index.html" class="nav-link">Domů</a>
+                  <a href="about.html" class="nav-link">O nás</a>
+                  <a href="#" class="nav-link">Hlídání</a>
+                </div>
+
+                <!-- klasické menu pro desktop -->
+                <div class="desktop-menu">
+                  <a href="index.html" class="nav-link">Domů</a>
+                  <a href="about.html" class="nav-link">O nás</a>
+                  <a href="#" class="nav-link">Hlídání</a>
+                </div>
+              </nav>
+
+            </header>
         </div>
       </div>
+
       <div class="text-wrapper-2">Hlídání</div>
-      <div class="overlap-wrapper">
-        <div class="overlap">
-          <div class="div-wrapper">
-            <div class="overlap-group-2">
-                <img class="img" src="https://c.animaapp.com/omYycfTY/img/frame-4.svg" />
-                <img class="frame-2" src="https://c.animaapp.com/omYycfTY/img/frame-5.svg" />
-            </div>
+
+      <div class="form-container">
+        <p class="p">Chcete si domluvit hlídání vašeho miláčka, pošlete nám zprávu níže ve formuláři ;)</p>
+        <form class="frame-5" onsubmit="alert('Formulář byl odeslán, ozveme se Vám co nejdříve zpět.');" method="POST">
+          <div class="button-wrapper">
+            <input class="button" type="text" name="name" placeholder="Jméno" required />
           </div>
-          <div class="group-2">
-            <img class="frame-3" src="https://c.animaapp.com/omYycfTY/img/frame-4-1.svg" />
-            <img class="frame-4" src="https://c.animaapp.com/omYycfTY/img/frame-5-1.svg" />
+          <div class="button-wrapper">
+            <input class="button" type="email" name="email" placeholder="E-mail" required />
           </div>
-        </div>
+          <div class="button-wrapper">
+            <input class="button" type="text" name="address" placeholder="Adresa" />
+          </div>
+          <div class="frame-6">
+            <textarea class="button-2" name="message" placeholder="Zpráva" required></textarea>
+          </div>
+          <div class="frame-7">
+            <button class="button" type="submit">Odeslat</button>
+          </div>
+        </form>
+        <p class="p">Ozveme se Vám co nejdříve zpět a o mazlíčka se postaráme</p>
       </div>
-      <p class="p">Chcete si domluvit hlídání vašeho miláčka, pošlete nám zprávu níže ve formuláři ;)</p>
-      <div class="frame-5">
-        <div class="button-wrapper"><button class="button">Jméno</button></div>
-        <div class="button-wrapper"><button class="button">E-mail</button></div>
-        <div class="button-wrapper"><button class="button">Adresa</button></div>
-        <div class="frame-6"><button class="button-2">Zpráva</button></div>
-        <div class="frame-7"><button class="button">Odeslat</button></div>
-      </div>
-      <p class="p">Ozveme se Vám co nejdříve zpět a o mazlíčka se postaráme</p>
-    </div>
+      
   </body>
 </html>
-

@@ -1,13 +1,13 @@
 {
-  "name": "2024-p2b-web-projekt-tomaskazda",
+  "name": "2024-p2b-web-projekt-strnadmarek",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build --base=/2024-p2b-web-projekt-TomasKazda/ && gh-pages -d dist -o origin"
+    "deploy": "vite build --base=/2024-p2b-web-projekt-StrnadMarek/ && gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
